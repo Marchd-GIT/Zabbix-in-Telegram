@@ -12,6 +12,7 @@ import stat
 from os.path import dirname
 import zbxtg_settings
 
+requests.packages.urllib3.disable_warnings() 
 
 class TelegramAPI():
     tg_url_bot_general = "https://api.telegram.org/bot"
